@@ -1,5 +1,5 @@
-import biglimpcopy1.Solweig1D_2020a_calc as so
-import biglimpcopy1.PET_calculations as p
+import noahtingb7.Solweig1D_2020a_calc as so
+import noahtingb7.PET_calculations as p
 
 def indexflask(form):
         month = int(form["month"])
