@@ -1,9 +1,9 @@
 from flask import Flask, render_template, request, session
-from biglimpcopy.petprocessing import petcalc
-from biglimpcopy.petprocessingprognose import petcalcprognose
+from gammalkod.petprocessing import petcalc
+from gammalkod.petprocessingprognose import petcalcprognose
 import numpy as np
-import biglimpcopy.Solweig_v2015_metdata_noload as metload
-import biglimpcopy.clearnessindex_2013b as ci
+import gammalkod.Solweig_v2015_metdata_noload as metload
+import gammalkod.clearnessindex_2013b as ci
 import requests
 import json
 import base64

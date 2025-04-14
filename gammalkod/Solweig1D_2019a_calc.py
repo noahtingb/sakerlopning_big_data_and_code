@@ -1,14 +1,14 @@
 from __future__ import absolute_import
 import numpy as np
-from biglimpcopy.daylen import daylen
-from biglimpcopy.clearnessindex_2013b import clearnessindex_2013b
-from biglimpcopy.diffusefraction import diffusefraction
-from biglimpcopy.cylindric_wedge import cylindric_wedge
+from gammalkod.daylen import daylen
+from gammalkod.clearnessindex_2013b import clearnessindex_2013b
+from gammalkod.diffusefraction import diffusefraction
+from gammalkod.cylindric_wedge import cylindric_wedge
 # from .TsWaveDelay_2015a import TsWaveDelay_2015a
 # from .Kup_veg_2015a import Kup_veg_2015a
-from biglimpcopy.Lside_veg_v2015a import Lside_veg_v2015a
-from biglimpcopy.Kside1D_veg_v2019a import Kside_veg_v2019a
-from biglimpcopy.Perez_v3 import Perez_v3
+from gammalkod.Lside_veg_v2015a import Lside_veg_v2015a
+from gammalkod.Kside1D_veg_v2019a import Kside_veg_v2019a
+from gammalkod.Perez_v3 import Perez_v3
 
 def Solweig1D_2019a_calc(svf, svfveg, svfaveg, sh, vegsh,  albedo_b, absK, absL, ewall, Fside, Fup, Fcyl, altitude, azimuth, zen, jday,
                          onlyglobal, location, dectime, altmax, cyl, elvis, Ta, RH, radG, radD, radI, P,

@@ -1,6 +1,6 @@
 author = 'xlinfr'
 
-import biglimpcopy.sun_distance as sun_distance
+import gammalkod.sun_distance as sun_distance
 import numpy as np
 import math
 

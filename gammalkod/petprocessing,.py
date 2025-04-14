@@ -1,10 +1,10 @@
 import numpy as np
-import biglimpcopy.Solweig_v2015_metdata_noload as metload
-import biglimpcopy.clearnessindex_2013b as ci
+import gammalkod.Solweig_v2015_metdata_noload as metload
+import gammalkod.clearnessindex_2013b as ci
 #import diffusefraction as df
-import biglimpcopy.Solweig1D_2019a_calc as so
-import biglimpcopy.PET_calculations as p
-import biglimpcopy.UTCI_calculations as utci
+import gammalkod.Solweig1D_2019a_calc as so
+import gammalkod.PET_calculations as p
+import gammalkod.UTCI_calculations as utci
 
 def petcalc(Ta, RH, Ws, radG, year, month, day, hour, minu):
     sh = 1.  # 0 if shadowed by building

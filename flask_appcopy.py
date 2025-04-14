@@ -1,9 +1,9 @@
-from biglimpcopy.petprocessing import petcalc
+from gammalkod.petprocessing import petcalc
 import numpy as np
-import biglimpcopy.Solweig_v2015_metdata_noload as metload
-import biglimpcopy.clearnessindex_2013b as ci
-from biglimpcopy1.petprocessing import petcalc as petcalc1
-import biglimpcopy1.clearnessindex_2013b as ci1
+import gammalkod.Solweig_v2015_metdata_noload as metload
+import gammalkod.clearnessindex_2013b as ci
+from noahtingb7.petprocessing import petcalc as petcalc1
+import noahtingb7.clearnessindex_2013b as ci1
 import requests
 import json
 import base64

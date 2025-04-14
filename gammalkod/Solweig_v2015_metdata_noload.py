@@ -1,5 +1,5 @@
 # from importdata import importdata
-import biglimpcopy.sun_position as sp
+import gammalkod.sun_position as sp
 import numpy as np
 import datetime
 import calendar
