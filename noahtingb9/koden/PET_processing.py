@@ -1,6 +1,6 @@
 '''A lower controll function for the PET Calculation'''
-import koden.Solweig as so
-import koden.PET_calculations as p
+import noahtingb9.koden.Solweig as so
+import noahtingb9.koden.PET_calculations as p
 __author__="noahtingb"
 
 def indexflask(form):

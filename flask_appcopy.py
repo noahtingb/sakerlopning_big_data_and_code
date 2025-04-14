@@ -3,12 +3,11 @@ import numpy as np
 import gammalkod.Solweig_v2015_metdata_noload as metload
 import gammalkod.clearnessindex_2013b as ci
 from noahtingb7.petprocessing import petcalc as petcalc1
-import noahtingb7.clearnessindex_2013b as ci1
 import requests
 import json
 import base64
 import pandas as pd
-import noahtingb8.Processing as pp
+import noahtingb9.koden.PET_processing as pp
 
 class AnalyticBase1:
     def getdata(self,cor=[57,12],types=["temperature_2m"],forcastdays=14):
